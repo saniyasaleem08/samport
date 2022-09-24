@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    background-color: rgb(27, 26, 25);
+    height: 90px;
+}
+
+#menu {
+    color: rgb(240, 230, 230);
+    font-weight: 500;
+    position: relative;
+}
+
+#makeup{
+height: 50px;
+}
+p{
+    font-size: 30px;
+}
+#menu:hover {
+    color: #e0bf75;
+
+}
+
+
+#menu:after {
+    content: "";
+    position: absolute;
+    background-color: #1f1e1c;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 5px;
+    transition: 0.3s;
+
+}
+
+#menu:hover:after {
+    width: 100%;
+
+}
+
+
+#menu30:after {
+    content: "";
+    position: absolute;
+    background-color: #31d2f2;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 70px;
+    transition: 0.1s;
+}
+
+#menu30:hover:after {
+    width: 100%;
+}
+
+
+img{
+    height: 59px;
+}
+
+
+
+
+#menu01:after {
+    content: "";
+    position: absolute;
+    background-color: #31d2f2;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -6px;
+    transition: 0.1s;
+}
+
+#menu01:hover:after {
+    width: 100%;
+}
+
+
+
+
+#navbarDropdownMenuLink:hover {
+    color: #cc5016;
+}
+
+.bgimage1 {
+    background-image: url(images/bgpic.jpeg);
+    height: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.dropdown-item:hover {
+    color: #f6f6f6;
+    background-color: darkgray;
+}
+
+
+.text1 {
+    font-size: 80px;
+    color: rgb(192, 139, 26);
+    padding-top: 120px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-left: 100px;
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btn1 {
+    margin-left: 100px;
+    color: white;
+    width: 150px;
+}
+
+#btn1:hover {
+    width: 155px;
+
+
+}
+
+#btn1 .fas {
+    position: absolute;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+#btn1:hover .fas {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+#intro {
+    background-color: rgb(156, 156, 156);
+}
+
+#text1212 {
+    box-shadow: 1px 1px 1px 2px gainsboro;
+}
+
+#btn2 {
+
+    color: white;
+    width: 150px;
+}
+
+#btn2:hover {
+    width: 155px;
+
+
+}
+
+#btn2 .fas {
+    position: absolute;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+#btn2:hover .fas {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+#my {
+    box-shadow: 1px 1px 1px 2px rgb(84, 83, 87);
+}
+
+.footer {
+    background-color: rgb(148, 142, 136);
+    width: 100%;
+    height: 300px;
+}
+
+
+.icons {
+    text-align: center;
+
+}
